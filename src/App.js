@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import CommanPage from './Components/index';
+
 
 function App() {
   return (
-    <div className="App">
-      Zomato clone
+    <div>
+      <CommanPage/>
+      
     </div>
   );
 }
