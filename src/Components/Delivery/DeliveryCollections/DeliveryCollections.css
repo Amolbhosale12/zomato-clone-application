@@ -1,0 +1,19 @@
+.delivery-heading{
+    color:#1C1C1C;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight:600;
+    margin: 0px 0px 3.2rem;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.delivery-collections{
+    
+    background: rgb(248, 248, 248)
+}
+.delivery-img-container{
+    margin-top: -30px;
+}
+
+

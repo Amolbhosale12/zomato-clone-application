@@ -4,22 +4,22 @@ import Footer from "./Comman/footer/index";
 import TabOptions from "./Comman/tabOptions/index";
 import Delivery from "./Delivery/index";
 import DiningOut from "./DiningOut/index.jsx";
-import NightLife from './NightLife/index'
+import NightLife from "./NightLife/index";
 
 const CommanPage = () => {
-  const [activeTab, SetActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("Delivery");
   //arrow function
   const getCorrectScreen = (activeTab) => {
     switch (activeTab) {
       case "Delivery":
         return <Delivery />;
         break;
-      case "Dining out":
+      case "Dining Out":
         return <DiningOut />;
         break;
 
-      case "Night life":
-        return <NightLife/>
+      case "Nightlife":
+        return <NightLife />;
         break;
 
       default:
@@ -29,11 +29,10 @@ const CommanPage = () => {
   return (
     <div>
       <Header />
-      <TabOptions />
-      {/* {getCorrectScreen(activeTab)} */}
+      <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
+      {getCorrectScreen(activeTab)}
       <Footer />
     </div>
   );
 };
-
 export default CommanPage;

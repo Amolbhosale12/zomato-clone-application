@@ -5,5 +5,7 @@
     --icon-name-color-grey:#828282;
     --icon-color:rgb(255, 126, 139);
     --grey:#828282;
-    
+    --text-color:#EF4F5F;
+    --filter-text:#9c9c9c;
+    --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
 }
