@@ -1,14 +1,13 @@
-import './App.css';
-import CommanPage from './Components/index';
 
+import './App.css';
+import React from 'react';
+import CommanPage from './Components/index.jsx';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <CommanPage/>
-      
     </div>
   );
 }
-
-export default App;
+  export default App;

@@ -7,3 +7,14 @@
     justify-content: center;
     align-items: center;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
+.absolute-left{
+    display: flex;
+    justify-content: left;
+}
+.slick-next:before,.slick-prev:before{
+    color :var(--grey);
+
+}
