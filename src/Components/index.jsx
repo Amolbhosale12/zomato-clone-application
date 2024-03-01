@@ -7,7 +7,7 @@ import DiningOut from "./DiningOut/index.jsx";
 import NightLife from "./NightLife/index";
 
 const CommanPage = () => {
-  const [activeTab, setActiveTab] = useState("Delivery");
+  const [activeTab, setActiveTab] = useState("Dining Out");
   //arrow function
   const getCorrectScreen = (activeTab) => {
     switch (activeTab) {

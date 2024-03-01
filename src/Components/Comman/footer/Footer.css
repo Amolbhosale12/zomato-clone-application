@@ -1,0 +1,10 @@
+.footer-container{
+    margin-top: 50px;
+    font-size:16.25px;
+    display: flex;
+    justify-content: left;
+}
+
+.footer-container-wrapper{
+    background-color: var(--footer-grey);
+}

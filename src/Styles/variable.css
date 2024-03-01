@@ -1,11 +1,24 @@
-#root{
-    --primary-box-shadow:rgb(28 28 28 / 8% ) 0px 2px 8px;
-    --border-white:rgb(53, 42, 42);
-    --background-color-primary-bg:rgb(255,255,255);
-    --icon-name-color-grey:#828282;
-    --icon-color:rgb(255, 126, 139);
-    --grey:#828282;
-    --text-color:#EF4F5F;
-    --filter-text:#9c9c9c;
-    --collection-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+#root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+  --border-white: rgb(53, 42, 42);
+  --background-color-primary-bg: rgb(255, 255, 255);
+  --icon-name-color-grey: #828282;
+  --icon-color: rgb(255, 126, 139);
+  --grey: #828282;
+  --text-color: #ef4f5f;
+  --filter-text: #9c9c9c;
+  --collection-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+  --tag-red: #d92662;
+  --tag-green: #267e3e;
+  --tag-blue: #256fef;
+  --subtitle-text: #363636;
+  --inactive-text: #f8f8f8;
+  --bg-gradient: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+  --zomato-red:#FF7E8B;
+  --footer-grey:#e7dfdf;
 }

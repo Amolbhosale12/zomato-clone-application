@@ -2,6 +2,11 @@ import React from "react";
 import "./Delivery.css";
 import Filter from "../Comman/filters/index";
 import DeliveryColleactions from "./DeliveryCollections/index"
+import ExploreItems from "../Comman/exploreSection";
+import {restaurants} from '../../data/restaurants'
+
+const restaurantList=restaurants;
+
 
 const Delivery = () => {
   const filterList=[
@@ -30,10 +35,11 @@ const Delivery = () => {
       <div className="max-width">
         <Filter filterList={filterList} />
       </div>
-      <div >
+      <div>
         <DeliveryColleactions/>
+        <ExploreItems list={restaurantList} collectionName="Delivery Restaurants in Bangalore"/>
       </div>
-      This is Delivery
+      
     </div>
   );
 };
