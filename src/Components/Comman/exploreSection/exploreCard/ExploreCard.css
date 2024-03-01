@@ -1,0 +1,155 @@
+.explore-card {
+  margin: 12px 0px 24px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.explore-card-cover {
+  height: 248px;
+  width: 340px;
+  border-radius: 15px;
+  position: relative;
+}
+.explore-card-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.delivery-time {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  background-color: var(--background-color-primary-bg);
+  backdrop-filter: blur(4px);
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 2px 5px 3px 5px;
+  background-color: rgb(38, 126, 62);
+  color: white;
+}
+.pro-off {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  background-color: var(--tag-red);
+  color: var(--background-color-primary-bg);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.discount {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  background-color: var(--tag-red);
+  color: var(--background-color-primary-bg);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.gold-off {
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  background-color: var(--tag-red);
+  color: var(--background-color-primary-bg);
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.res-row {
+  display: flex;
+  justify-content: space-between;
+}
+.res-name {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 600;
+}
+.res-rating {
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--background-color-primary-bg);
+  background-color: var(--tag-green);
+  border-radius: 6px;
+  height: 24px;
+}
+.res-rating {
+  font-size: 10px;
+  margin-left: 2px;
+}
+.res-cuisine {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.res-cuisine-tag {
+  color: grey;
+}
+.approx-price {
+  color: grey;
+  font-size: 10.5px;
+}
+.top-row-align {
+  margin-top: 10px;
+}
+.explore-bottom-text {
+  margin-top: 5px;
+  width: 280px;
+  font-size: 1px;
+  font-weight: 600;
+  color: grey;
+  height: 42.5px;  
+ 
+}
+.explore-bottom {
+  width: 340px;
+}
+.explore-bottom-seperator {
+  height: 1px;
+  width: 340px;
+  background-color: grey;
+  border: 1px;
+  margin-top: 10px;
+  opacity: 0.3;
+}
+.explore-image-container {
+  height: 22.5px;
+  width: 60px;
+}
+.explore-image {
+  height: 100%;
+  width: 100%;
+}
+.explore-card:hover{
+  border-color: rgb(232, 232, 232);
+  box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+  box-sizing: border-box;
+}
+
+

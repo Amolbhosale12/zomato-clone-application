@@ -79,16 +79,67 @@ const deliveryItems = [
       "https://b.zmtcdn.com/data/o2_assets/2b5a5b533473aada22015966f668e30e1633434990.png",
   },
 ];
+const deliveryBrandItems=[
+    {
+        id:1,
+        title:"Burger King",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/6a11fd0f30c9fd9ceaff2f5b21f61d23_1617188299.png"
+
+    },
+    {
+        id:2,
+        title:"Subway",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/9302c59eca94abbee01aec9acf9305f6_1676471832.png"
+
+    },
+    {
+        id:3,
+        title:"Irani Cafe",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/05a2c24a8de3f8fe07fc46a07fdbba99_1611576819.png"
+
+    },
+    {
+        id:4,
+        title:"Theobroma",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/84edd5489389f21069c09f0c88ea8abb_1628179363.png"
+    },
+    {
+        id:5,
+        title:"Chitale Bandhu Mithaiwale",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/b7dc8cd85894eb89c1eed35b81fc5c9b_1605067995.png"
+    },
+    {
+        id:6,
+        title:"Faasos - Wraps & Rolls",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/45137b90df2f1154a8766b00c03c8fc3_1655798578.png"
+    },
+    {
+        id:7,
+        title:"The Belgian Waffle Co.",
+        cover:"	https://b.zmtcdn.com/data/brand_creatives/logos/7c26cec5328c49e583876f3d0a747623_1707139054.png"
+    },
+    {
+        id:8,
+        title:"Haidiram's Restaurant",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/d3c593271933bba9027ab27e60e7e9c9_1605068098.png"
+    },
+    {
+        id:9,
+        title:"CakeZone Patisserie",
+        cover:"https://b.zmtcdn.com/data/brand_creatives/logos/50760f50e2c9d1220c3c98e5a32eba28_1661167098.png"
+    }
+]
 
 const settings = {
   infinite: false,
-  slidesToShow: 7,
+  slidesToShow: 6,
   slidesToScroll: 1,
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
 };
 
 const DeliveryColleactions = () => {
+    
   return (
     <div className="delivery-collections">
       <div className=" delivery-collections-wrapper max-width">
@@ -102,6 +153,22 @@ const DeliveryColleactions = () => {
             })}
           </Slider>
         </div>
+      </div>
+      <div >
+        <div className=" delivery-collections-wrapper max-width">
+          <div className="delivery-heading absolute-left">
+            Top brands for you
+          </div>
+          <div className="delivery-img-container">
+            <Slider {...settings}>
+              {deliveryBrandItems.map((items) => {
+                return <DeliveryItem item={items} />;
+              })}
+            </Slider>
+          </div>
+        </div>
+      </div>
+      <div>
       </div>
     </div>
   );
